@@ -656,8 +656,7 @@
     box-shadow: var(--sdt-wrap-shadow, 0 1px 6px var(--sdt-shadow-color, #ccc));
     border-radius: var(--sdt-radius, 4px);
     /*padding: 0.5em;*/
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+    padding: 0.25rem;
     color: var(--sdt-color, initial);
   }
   .std-calendar-wrap.is-range-wrap {
@@ -690,7 +689,6 @@
     gap: 0.5rem;
     justify-content: space-between;
     flex-flow: row-reverse;
-    padding-bottom: 3px; /* BW-2023/12/21*/
   }
   .sdt-action-btn {
     /*padding: 0.25em 0.5em;*/

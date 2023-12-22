@@ -7,7 +7,6 @@
   // @ts-nocheck
   import { writable } from "svelte/store";
   import TableOfContents from "./TableOfContents.svelte";
-  import { ProgressBar } from '@prgm/sveltekit-progress-bar'
   import ThemeToggle from "./ThemeToggle.svelte";
 
   /** @type {import('./$types').LayoutData} */
@@ -54,7 +53,6 @@
   }
 </script>
 
-<ProgressBar color="#7F57F1" />
 <div class="fullbody">
   <div class="header flex shadow-lg relative z-10">
     <div class="flex items-center flex-1">

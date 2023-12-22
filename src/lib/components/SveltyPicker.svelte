@@ -693,7 +693,7 @@
   }
   .sdt-action-btn {
     /*padding: 0.25em 0.5em;*/
-    padding: 0px 3px
+    padding: 0px 3px;
     font-size: 0.875em;
     border-radius: 0.2em;
   }

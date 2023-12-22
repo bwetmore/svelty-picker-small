@@ -690,7 +690,7 @@
     gap: 0.5rem;
     justify-content: space-between;
     flex-flow: row-reverse;
-    padding-bottom: 3px; // BW
+    padding-bottom: 3px; /* BW*/
   }
   .sdt-action-btn {
     /*padding: 0.25em 0.5em;*/

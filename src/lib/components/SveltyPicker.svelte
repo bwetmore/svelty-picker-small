@@ -702,7 +702,7 @@
     background-color: var(--sdt-bg-selected, #286090);
     color: var(--sdt-today-color, var(--sdt-bg-main, #fff));
     /*padding: 0.25em 0.5em;*/
-    padding: 0 3px
+    padding: 0 3px;
     font-size: 0.875em;
     border-radius: 0.2em;
     border: 1px solid var(--sdt-today-bg, #286090);

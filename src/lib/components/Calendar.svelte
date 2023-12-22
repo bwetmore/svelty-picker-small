@@ -105,7 +105,8 @@
   let duration = 400;
   $: start = viewDelta < 1 ? 1.5 : 0.5;
   $: end = viewDelta < 1 ? 1 : 1.5;
-  const TRANSFORM_CONST = 222;
+  //const TRANSFORM_CONST = 222;
+  const TRANSFORM_CONST = 182;
   const TRANSFORM_DECADE_UNEVEN = 148;  // in decade view, transform constants values are changing
   let transform = TRANSFORM_CONST;  // month +/- constant
   /** @type {Function|null} */
@@ -427,10 +428,12 @@
 }
 .sdt-cal-th {
   text-align: center;
-  height: 24px;
+  /*height: 24px;*/
+  height: 20px;
 }
 .sdt-calendar {
-  height: 221px;
+  /*height: 221px;*/
+  height: 181px;
   overflow: hidden;
 }
 .sdt-calendar.is-grid {
@@ -447,7 +450,8 @@
   background-color: var(--sdt-table-bg, transparent);
 }
 .sdt-table-height {
-  height: 222px;
+  /*height: 222px;*/
+  height: 182px;
 }
 .animate-transition {
   will-change: transform;
@@ -467,13 +471,16 @@
   width: 100%;
   border-radius: 4px;
   cursor: pointer;
-  padding: 0.3rem;
+  /*padding: 0.3rem;*/
+  padding: 0.25rem;
   box-sizing: border-box;
   color: var(--sdt-color, initial);
 }
 .sdt-btn-day {
-  max-height: 32px;
-  height: 32px;
+  /*max-height: 32px;
+  height: 32px;*/
+  max-height: 26px;
+  height: 26px;
 }
 .std-btn[disabled] {
   cursor: not-allowed;
@@ -550,11 +557,13 @@
   background-color: var(--sdt-bg-main, #fff);
 }
 .sdt-tbody-lg .std-btn {
-  height: 74px;
+  /*height: 74px;*/
+  height: 61px;
 }
 .sdt-thead-nav {
   display: flex;
-  margin-bottom: 0.25em;
+  /*margin-bottom: 0.25em;*/
+  margin-bottom: 0.125rem;
   align-items: stretch;
 }
 .sdt-nav-btns {

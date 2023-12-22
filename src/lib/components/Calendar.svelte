@@ -472,7 +472,7 @@
   border-radius: 4px;
   cursor: pointer;
   /*padding: 0.3rem;*/
-  padding: 0.25rem;
+  padding: 0.125rem;
   box-sizing: border-box;
   color: var(--sdt-color, initial);
 }

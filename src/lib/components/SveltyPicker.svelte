@@ -650,11 +650,14 @@
     display: inline;
   }
   .std-calendar-wrap {
-    width: 280px;
+    /*width: 280px;*/
+    width: 240px;
     background-color: var(--sdt-bg-main, #fff);
     box-shadow: var(--sdt-wrap-shadow, 0 1px 6px var(--sdt-shadow-color, #ccc));
     border-radius: var(--sdt-radius, 4px);
-    padding: 0.5em;
+    /*padding: 0.5em;*/
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
     color: var(--sdt-color, initial);
   }
   .std-calendar-wrap.is-range-wrap {
@@ -668,7 +671,8 @@
   }
   .sdt-widget {
     flex: 1;
-    min-width: 264px;
+    /*min-width: 264px;*/
+    min-width: 224px;
   }
   .value-dirty {
     color: color-mix(in srgb, black 20%, white);
@@ -679,14 +683,17 @@
     z-index: 100;
   }
   .sdt-btn-row {
-    margin-top: 0.5rem;
+    /*margin-top: 0.5rem;*/
+    margin-top: 2px;
+		margin-right: 5px;
     display: flex;
     gap: 0.5rem;
     justify-content: space-between;
     flex-flow: row-reverse;
   }
   .sdt-action-btn {
-    padding: 0.25em 0.5em;
+    /*padding: 0.25em 0.5em;*/
+    padding: 0px 3px
     font-size: 0.875em;
     border-radius: 0.2em;
   }

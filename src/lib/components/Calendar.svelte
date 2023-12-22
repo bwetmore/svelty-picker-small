@@ -107,7 +107,8 @@
   $: end = viewDelta < 1 ? 1 : 1.5;
   //const TRANSFORM_CONST = 222;
   const TRANSFORM_CONST = 182;
-  const TRANSFORM_DECADE_UNEVEN = 148;  // in decade view, transform constants values are changing
+  //const TRANSFORM_DECADE_UNEVEN = 148;  // in decade view, transform constants values are changing
+  const TRANSFORM_DECADE_UNEVEN = 121;  // BW - 61 height of new td
   let transform = TRANSFORM_CONST;  // month +/- constant
   /** @type {Function|null} */
   let onMonthTransitionTrigger = null;
@@ -433,7 +434,7 @@
 }
 .sdt-calendar {
   /*height: 221px;*/
-  height: 181px;
+  height: 184px;
   overflow: hidden;
 }
 .sdt-calendar.is-grid {
@@ -451,7 +452,7 @@
 }
 .sdt-table-height {
   /*height: 222px;*/
-  height: 182px;
+  height: 185px;
 }
 .animate-transition {
   will-change: transform;
